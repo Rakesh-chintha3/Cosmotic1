@@ -1,0 +1,1157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo img{
+    width:40px;
+}
+.navbar{
+    padding: 0;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.line1{
+    background: #60c5f3 !important;
+    height: 3px !important;
+    width: 10px !important;
+    border-radius: 20px !important;
+    transition: 0.7s !important;
+    opacity: 0 !important;
+}
+.nav-item .nav-link:hover .line1{
+    width: 150px !important;
+    opacity: 1 !important;
+}
+
+/* ..........................carousel........................... */
+.bg2{
+    /* background-color: chartreuse; */
+/*     background-image: url("images/bglogo.jpg"); */
+    background-position: center;
+    background-size: cover;
+/*     height: 700px; */
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.three{
+    padding: 130px;
+}
+.image{
+    background-image: url("logo2.jpg");
+    background-position: center;
+    background-size: cover;
+    margin: 100px;
+    height: 450px;
+}
+.three h1{
+    font-size: 40px;
+    padding-top: 30px;
+    margin: 20px 0;
+}
+.three p{
+    font-style: italic;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.three button{
+    font-size: 18px;
+    border: 2px solid red;
+    width: 200px;
+    padding: 15px;
+}
+.three button:hover{
+    background-color: red;
+    color: white;
+}
+.bg3{
+    text-align: center;
+    padding-top:100px  ;
+    /* background-color: blueviolet; */
+    /* height: 500px; */
+    /* padding-bottom: 100px; */
+}
+.subbg3{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 100px;
+}
+.four{
+    width: 350px;
+    height: 300px;
+    background-color: lightgray;
+    margin-left: 20px;
+    outline: 1px 1px 10px black;
+    
+}
+.four1{
+    width: 350px;
+    height: 300px;
+    background-color: lightgray;
+    margin-left: 20px;
+    outline: 1px 1px 10px black;
+    
+}
+.four2{
+    width: 350px;
+    height: 300px;
+    background-color: lightgray;
+    margin-left: 20px;
+    outline: 1px 1px 10px black;
+    
+}
+.four i{
+    font-size: 60px;
+    padding: 30px 0;
+    color: red;
+}
+.four p{
+    padding: 20px 0;
+}
+.four1 i{
+    font-size: 60px;
+    padding: 30px 0;
+    color: red;
+}
+.four1 p{
+    padding: 20px 0;
+}
+.four2 i{
+    font-size: 60px;
+    padding: 30px 0;
+    color: red;
+}
+.four2 p{
+    padding: 20px 0;
+}
+.bg4{
+    /* background-color: chartreuse; */
+    /* height: 580px; */
+}
+.subbg4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    /* margin-top: 300px; */
+}
+.five h2{
+    padding: 90px 20px 20px 50px;
+    font-size: 40px;
+}
+.five p{
+    padding: 1px 1px 20px 50px;
+    font-style: italic;
+    font-size: 20px;
+    color: gray;
+    /* margin: 20px; */
+}
+.subfive1{
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding:5px 55px;
+}
+.five2 i{
+    color: chocolate;
+    font-size: 20px;
+}
+.subfive2{
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding:5px 55px;
+}
+.five4 i{
+    color: chocolate;
+    font-size: 20px;
+}
+.subfive3{
+    /* display: grid; */
+    /* grid-template-columns: 50% 50%; */
+    display: flex;
+    justify-content: space-between;
+    padding:5px 55px;
+}
+.five6 i{
+    color: chocolate;
+    font-size: 20px;
+}
+.image1{
+    background-image: url("logo3.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 450px;
+    margin-top:50px ;
+}
+.bg5{
+    /* background-color:olive; */
+    /* height: 550px; */
+}
+.subbg5{
+    width: 95%;
+    height: 450px;
+    background-color: lightgray;
+    margin: 100px 0 0 30px;
+    /* margin-top: 50px ; */
+}
+.subbg5 h1{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 150px;
+}
+.subbg5 p{
+    text-align: center;
+    padding-top: 10px;
+}
+.bg6{
+    /* background-color: aquamarine; */
+    /* height: 600px; */
+}
+.subbg6{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.image2{
+    background-image: url("logo4.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+}
+.six{
+    padding: 130px 1px 1px 80px;
+}
+.six h1{
+    font-size: 50px;
+}
+.six h3{
+    color: gray;
+    font-style: italic;
+    padding: 20px 1px 20px 0;
+}
+.six button{
+    width: 180px;
+    height: 50px;
+    border: 2px solid red;
+    margin: 20px 0px;
+}
+.six button:hover{
+    color: white;
+    background-color: red;
+}
+.bg7{
+    /* background-color: blueviolet; */
+    /* height: 600px; */
+}
+.subbg7{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.image3{
+    background-image: url("logo5.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin-top: 50px;
+}
+.seven{
+    background-color: #E3E0E0;
+    margin-top: 50px;
+    height: 500px;
+}
+.image4{
+    background-image: url("logo6.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 150px;
+    margin: 100px 200px 10px 200px;
+}
+.seven h1{
+    font-size: 35px;
+    padding: 0 80px;
+}
+.seven p{
+    padding: 20px 0 0 200px;
+}
+.bg8{
+    /* background-color:greenyellow; */
+    /* height: 500px; */
+}
+.subbg8{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.eight h1{
+    padding: 60px 0 0 20px;
+    font-size: 40px;
+}
+.eight h4{
+    color: gray;
+    font-style: italic;
+    padding: 0 0 10px 20px;
+    font-size: 20px;
+}
+.eight p{
+    padding-left: 20px;
+    font-size: 18px;
+    word-spacing: 2px;
+    /* letter-spacing: 1px; */
+}
+.eight button{
+    margin:20px 0 0  20px;
+    width: 180px;
+    height: 50px;
+    border: 2px solid red;
+}
+.eight button:hover{
+    color: white;
+    background-color: red;
+}
+.nine{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.image5{
+    background-image: url("logo7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 50px 20px 0 10px;
+    position: relative;
+}
+.image5 h3{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+.image5 p{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.image6{
+    background-image: url("logo8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    margin: 50px 20px 0 10px;
+    position: relative;
+}
+.image6 h3{
+    position: absolute;
+    top: 320px;
+    left: 50px;
+}
+.image6 p{
+    position: absolute;
+    top: 350px;
+    left: 100px;
+}
+.bg9{
+    /* background-color: cadetblue; */
+    /* height: 700px; */
+    margin-top: 50px;
+}
+.subbg9{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.bg9 h1{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.image7{
+    background-image: url("logo7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image7 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image7 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image8{
+    background-image: url("logo8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image8 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image8 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image9{
+    background-image: url("logo9.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image9 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image9 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.bg10{
+    /* background-color: blueviolet; */
+    /* height: 1400px; */
+}
+.bg10 h1{
+    text-align: center;
+    padding: 50px;
+}
+.subbg10{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.image10{
+    background-image: url("logo7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image10 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image10 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image11{
+    background-image: url("logo8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image11 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image11 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image12{
+    background-image: url("logo7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image12 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image12 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.subbg11{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+}
+.image13{
+    background-image: url("logo8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image13 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image13 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image14{
+    background-image: url("logo7.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image14 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image14 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.image15{
+    background-image: url("logo8.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 500px;margin: 50px 30px 0 30px;
+    position: relative;
+}
+.image15 h3{
+    position: absolute;
+    top: 400px;
+    left: 80px;
+}
+.image15 p{
+    position: absolute;
+    top:430px ;
+    left: 130px;
+}
+.bg11{
+    /* background-color: aquamarine; */
+    /* height: 500px; */
+}
+.bg11 h1{
+    text-align: center;
+    padding-top: 100px;
+}
+.subbg12{
+    /* display: grid; */
+    /* grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%; */
+    display: flex;
+    
+    padding-top:100px ;
+}
+.image16, .image17, .image18, .image19, .image20, .image21, .image22, .image23{
+    margin: 0 2%;
+}
+.image16{
+    background-image: url("logo10.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image17{
+    background-image: url("logo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image18{
+    background-image: url("logo11.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image19{
+    background-image: url("logo12.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image20{
+    background-image: url("logo.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image21{
+    background-image: url("logo11.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image22{
+    background-image: url("logo13.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.image23{
+    background-image: url("logo14.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+}
+.bg13{
+    /* background-color:aqua; */
+    /* height: 400px; */
+    margin-top: 80px;
+}
+.subbg13{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.X{
+    padding: 60px;
+}
+.X h3{
+    color: gray;
+    font-style: italic;
+    padding: 15px 0;
+}
+.X h5{
+    font-size: 15px;
+    margin: 10px 0;
+}
+.Y input{
+    /* color: brown; */
+    width: 248px;
+    height: 70px;
+    /* margin: 0 -5px; */
+
+}
+.Y button{
+    width: 200px;
+    height: 50px;
+    /* margin:20px ; */
+    border: 2px solid red;
+    /* padding: 20px 20px; */
+}
+.Y button:hover{
+    color: white;
+    background-color: red;
+}
+textarea{
+    margin:0 -5px 20px -5px;
+    width: 500px;
+    height: 100px;
+}
+.bg14{
+    background-color:lightgray;
+    /* height: 300px; */
+}
+.subbg14{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20%;
+}
+.img{
+    background-image: url("logo1.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 70px;
+}
+.Q{
+    padding: 70px 0;
+}
+.R{
+    padding: 70px 0;
+}
+.S{
+    padding: 70px 0;
+}
+.S h2{
+    font-size: 22px;
+}
+.S button{
+    width: 150px;
+    height: 50px;
+    margin: 20px 0;
+}
+.S1 form{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.S1 input{
+    width: 150px;
+    height: 50px;
+    margin-top: 20px;
+}
+.S button type{
+    width: 70px;
+    height: 50px;
+    border: 2px solid black;
+}
+.S button.a:hover{
+    color: white;
+    background-color: black;
+}
+
+/*................................................RESPONSIVE.............................................*/
+
+
+
+
+
+/* @media screen and (min-width:469px) and (max-width:728px){ */
+    @media screen and (max-width:800px) {
+    .A1{
+     display:black;
+    }
+     .one1{
+     width:30px;
+     height:10px;
+     padding: 12px ;
+    }
+    .one2 h3{
+     font-size: 12px;
+     margin-left: 15px;
+    }
+    .two i{
+        display: block;
+    }
+    .two a{
+     font-size: 7px;
+     display: block;
+    }
+    .bg2{
+        display: block;
+    }
+    .three h1{
+        font-size: 25px;
+        margin: -120px 0 0 -90px;
+    }
+    .three p{
+        font-size: 15px;
+        margin:10px 0 0 -90px;
+    }
+    .three button{
+        width: 100px;
+        height: 30px;
+        padding:0 0 2px 0;
+        font-size: 10px;
+        margin: 10px 0 0 -90px;
+    }
+    .image{
+        margin: -100px 40px -50px 30px;
+    }
+    .bg3 h1{
+        font-size: 20px;
+        padding-top:5% ;
+    }
+    .subbg3{
+        display: block;
+        
+    }
+    .four{
+        /* margin: -60px 0 50px 30px; */
+        text-align: center;
+        width: 90%;
+        margin:3% auto;
+        /* margin-left: 0; */
+    }
+    .four1{
+        /* margin: 0 0 20px 30px; */
+        width: 90%;
+        margin:3% auto;
+        text-align: center;
+        /* margin-left: 0; */
+    }
+    .four2{
+        /* margin: 50px 0 20px 30px; */
+        width: 90%;
+        margin:3% auto;
+        text-align: center;
+        /* margin-left: 0; */
+    }
+    .subbg4{
+        display: block;
+    }
+    .five h2{
+        font-size: 20px;
+        margin: -50px 0 0 -40px;
+    }
+    .five p{
+        font-size: 15px;
+        margin: 0 0 0 -40px;
+    }
+    .subfive1{
+        margin: 0 0 0 -40px;
+    }
+    .subfive2{
+        margin: 0 0 0 -40px;
+    }
+    .subfive3{
+        margin: 0 0 0 -40px;
+    }
+    .image1{
+        width: 90%;
+        margin:5% auto;
+        height: 400px;
+        /* margin-left: 0; */
+        text-align: center;
+    }
+    .subbg5{
+        width: 90%;
+        height: 200px;
+        margin: 6% auto;
+    }
+    .subbg5 h1{
+        font-size: 18px;
+        padding: 80px 0 0 0;
+    }
+    .subbg5 p{
+        font-size: 12px;
+    }
+    .subbg6{
+        display: block;
+    }
+    .image2{
+        width: 90%;
+        margin:5% auto;
+        height: 400px;
+        /* margin-left: 0; */
+    }
+    .six{
+        margin-left: 4%;
+    }
+    .six h1{
+        font-size: 20px;
+        margin: 0 0 0 -60px;
+    }
+    .six h3{
+        font-size: 13px;
+        margin: 0 0 0 -60px;
+    }
+    .six p{
+        font-size: 11px;
+        margin: 0 0 0 -60px;
+    }
+    .six button{
+        width: 120px;
+        height: 30px;
+        margin: 10px 0 0 -60px;
+    }
+    .subbg7{
+        display: block;
+        /* padding: 0; */
+        margin:0 !important ;
+    }
+    .image3{
+        width: 90%;
+        margin:5% auto;
+        height: 400px;
+        /* margin-left: 0; */
+    }
+    .seven{
+        width: 90%;
+        margin:5% auto;
+        height: 350px;
+        /* margin-left: 0; */
+        position: relative;
+
+    }
+    .image4{
+        width: 50%;
+        height: 130px;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        margin: 0;
+    }
+    .seven h1{
+        font-size: 16px;
+        width: 100%;
+        text-align: center;
+        padding: 58% 0 0 0 ;
+    }
+    .seven p{
+        font-size: 12px;
+        text-align: center;
+        padding: 0 ;
+    }
+    .subbg8{
+        display: block;
+    }
+    .eight h1{
+        font-size: 23px;
+        
+    }
+    .eight h4{
+        font-size: 13px;
+    }
+    .eight p{
+        font-size: 12px;
+    }
+    .eight button{
+        width: 130px;
+        height: 30px;
+        /* display: none; */
+    }
+    .image5 h3{
+        font-size: 12px;
+    }
+    .image5 p{
+        font-size: 12px;
+        margin: 0 0 0 -25px;
+    }
+    .image6 h3{
+        font-size: 12px;
+    }
+    .image6 p{
+        font-size: 12px;
+        margin: 0 0 0 -25px;
+    }
+    .bg9 h1{
+        font-size: 20px;
+    }
+    .subbg9{
+        display: block;
+    }
+    .image7{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image7 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+        /* text-align: center; */
+    }
+    .image7 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+
+    }
+    .image8{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image8 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image8 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .image9{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image9 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image9 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .bg10 h1{
+        font-size: 20px;
+    }
+    .subbg10{
+        display: block;
+    }
+    .image10{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image10 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image10 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .image11{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image11 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image11 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .image12{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image12 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image12 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .subbg11{
+        display: block;
+    }
+    .image13{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image13 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image13 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .image14{
+        width: 80%;
+        margin:5% auto;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image14 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image14 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .image15{
+        width: 80%;
+        margin:5% auto;
+        text-align: center;
+        height: 500px;
+        /* margin-left:0 ; */
+    }
+    .image15 h3{
+        font-size: 12px;
+        margin: 0 0 0 25%;
+    }
+    .image15 p{
+        font-size: 11px;
+        margin: 0 0 0 20%;
+    }
+    .bg11 h1{
+        font-size: 20px;
+    }
+    .subbg12{
+        /* display: inline; */
+        flex-direction: column;
+        text-align: center;
+        
+    }
+    .image16, .image17, .image18, .image19, .image20, .image21, .image22, .image23{
+        margin:  2% 0 0 38%;
+    }
+    
+    .subbg13{
+        display: block;
+    }
+    .X{
+        margin-left: 3%;
+        /* margin: 0; */
+        padding-left: 0;
+    }
+    .X h1{
+        font-size: 20px;
+    }
+    .X h3{
+        font-size: 11px;
+    }
+    .X h5{
+        font-size: 11px;
+    }
+    .X p{
+        font-size: 11px;
+    }
+    .Y input{
+        width: 100%;
+        height: 50px;
+    }
+    .Y textarea{
+        width: 100%;
+        height: 60px;
+        
+    }
+    .Y button{
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        margin: 2% 0;
+    }
+    .subbg14{
+        display: block;
+        
+    }
+    .img{
+        width: 100%;
+        height: 500px;
+        margin: 0;
+    }
+    /* .QR{
+        display: flex;
+        justify-content: space-between;
+    } */
+    .Q{
+        padding: 4% 0;
+    }
+    .Q h2{
+        font-size: 15px;
+        
+    }
+    .R{
+        padding: 4% 0;
+    }
+    .R h2{
+        font-size: 15px;
+        
+    }
+    .S{
+        padding: 4% 0;
+    }
+    .S h2{
+        font-size: 20px;
+    }
+    .S1 input{
+        width: 300px;
+        height: 30px;
+    }
+    .S1 button{
+        height: 30px;
+    }
+}
